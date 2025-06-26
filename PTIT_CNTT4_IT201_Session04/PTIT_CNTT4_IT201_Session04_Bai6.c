@@ -4,7 +4,7 @@
 // khai bao cau truc student
 typedef struct{
 int id;
-    int name[MAX];
+    char name[MAX];
     int age;
 } Student;
 int main() {

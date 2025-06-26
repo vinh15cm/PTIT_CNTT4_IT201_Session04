@@ -29,8 +29,9 @@ int binarySearch(int arr[], int n, int x) {
         } else {
             left = mid + 1;
         }
-        return 0;// khong tim thay
+
     }
+    return 0;// khong tim thay
 }
 int main() {
     int n;
